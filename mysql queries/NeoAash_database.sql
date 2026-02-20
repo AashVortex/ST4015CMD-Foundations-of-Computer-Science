@@ -92,3 +92,13 @@ INSERT INTO Student VALUES
 INSERT INTO Club VALUES
      (5,'hacking club','R699','ms.piya');
 
+
+-- displaying the ( Student name , Club name , join Date) and joining between in ( Sudent table , Club table , Membership table ) 
+
+SQL JOIN Operation
+
+SELECT s.StudentName, c.ClubName, m.JoinDate
+FROM Membership m
+JOIN Student s ON m.StudentID = s.StudentID
+JOIN Club c ON m.ClubID = c.ClubID;
+
