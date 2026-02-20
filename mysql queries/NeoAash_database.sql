@@ -52,7 +52,7 @@ CREATE TABLE Club (
      Clubname VARCHAR (20),
      ClubRoom VARCHAR (20),
      ClubMentor VARCHAR (20)
-     );
+);
 
 INSERT INTO Club VALUES
 (1,'music club','R101','mr.Raman'),
@@ -66,3 +66,5 @@ CREATE TABLE Memberships (
     ClubID INT,
     JoinDate DATE NOT NULL,
     PRIMARY KEY (StudentID, ClubID)
+);
+
