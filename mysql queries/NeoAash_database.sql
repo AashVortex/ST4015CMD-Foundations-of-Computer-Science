@@ -37,3 +37,10 @@ CREATE TABLE Student (
      Studentname VARCHAR (50),
      Email VARCHAR (50)
      );
+
+ INSERT INTO Student VALUES
+(1,'Asha','asha@email,com'),
+(2,'Bikash','bikash@email.com'),
+(3,'Nisha','nisha@email.com'),
+(4,'Rohan','rohan@email.com'),
+(5,'Suman','suman@email.com'),
