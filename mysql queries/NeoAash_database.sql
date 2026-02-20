@@ -87,3 +87,8 @@ CREATE TABLE Memberships (
 -- Inserting a new student into the student table
 INSERT INTO Student VALUES
      (8,'Aashish','aashish@email.com');
+
+-- Inserting a new Club into the Club table
+INSERT INTO Club VALUES
+     (5,'hacking club','R699','ms.piya');
+
