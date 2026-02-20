@@ -44,3 +44,5 @@ CREATE TABLE Student (
 (3,'Nisha','nisha@email.com'),
 (4,'Rohan','rohan@email.com'),
 (5,'Suman','suman@email.com'),
+(6,'Pooja','pooja@email.com'),
+(7,'Aman','aman@email.com');
