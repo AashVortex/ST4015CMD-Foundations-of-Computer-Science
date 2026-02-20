@@ -82,3 +82,8 @@ CREATE TABLE Memberships (
 (7, 4, '2024-01-30');
 
 --note (after converting the table to Second Normal Form, no transitive dependencies remained. Therefore, the tables already satisfy Third Normal Form, and no further decomposition was required.)
+
+
+-- Inserting a new student into the student table
+INSERT INTO Student VALUES
+     (8,'Aashish','aashish@email.com');
