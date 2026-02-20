@@ -31,3 +31,9 @@ INSERT INTO DATA (StudentID, StudentName, Email, ClubName, ClubRoom, ClubMentor,
 --it's already in 1NF so don't have to do normalization of 1NF 
 
 -- Part B: Second Normal Form (2NF)
+
+CREATE TABLE Student (
+     StudentID int primary key,
+     Studentname VARCHAR (50),
+     Email VARCHAR (50)
+     );
