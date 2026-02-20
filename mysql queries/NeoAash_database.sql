@@ -29,3 +29,5 @@ INSERT INTO DATA (StudentID, StudentName, Email, ClubName, ClubRoom, ClubMentor,
 (7, 'Aman', 'aman@email.com', 'Coding Club', 'Lab1', 'Mr. Anil', '2024-01-30');
 
 --it's already in 1NF so don't have to do normalization of 1NF 
+
+-- Part B: Second Normal Form (2NF)
