@@ -1,0 +1,14 @@
++-------------+-------------+------------+
+| StudentName | ClubName    | JoinDate   |
++-------------+-------------+------------+
+| Asha        | music club  | 2024-01-10 |
+| Nisha       | music club  | 2024-01-20 |
+| Suman       | music club  | 2024-01-22 |
+| Bikash      | sports club | 2024-01-12 |
+| Asha        | sports club | 2024-01-15 |
+| Pooja       | sports club | 2024-01-27 |
+| Rohan       | drama club  | 2024-01-18 |
+| Bikash      | drama club  | 2024-01-25 |
+| Nisha       | coding club | 2024-01-28 |
+| Aman        | coding club | 2024-01-30 |
++-------------+-------------+------------+
