@@ -53,3 +53,8 @@ CREATE TABLE Club (
      ClubRoom VARCHAR (20),
      ClubMentor VARCHAR (20)
      );
+
+INSERT INTO Club VALUES
+(1,'music club','R101','mr.Raman'),
+(2,'sports club','R202','ms. sita'),
+(3,'drama club','R303','mr. kiran'),
