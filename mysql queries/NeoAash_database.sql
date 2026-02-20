@@ -59,3 +59,10 @@ INSERT INTO Club VALUES
 (2,'sports club','R202','ms. sita'),
 (3,'drama club','R303','mr. kiran'),
 (4,'coding club','lab1','mr. anil');
+
+
+CREATE TABLE Memberships (
+    StudentID INT,
+    ClubID INT,
+    JoinDate DATE NOT NULL,
+    PRIMARY KEY (StudentID, ClubID)
