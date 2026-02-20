@@ -46,3 +46,10 @@ CREATE TABLE Student (
 (5,'Suman','suman@email.com'),
 (6,'Pooja','pooja@email.com'),
 (7,'Aman','aman@email.com');
+
+CREATE TABLE Club (
+     ClubID int primary key,
+     Clubname VARCHAR (20),
+     ClubRoom VARCHAR (20),
+     ClubMentor VARCHAR (20)
+     );
