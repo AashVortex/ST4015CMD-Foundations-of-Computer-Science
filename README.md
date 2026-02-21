@@ -8,3 +8,8 @@ Database Schema and Table of  College Club Membership Management
 
 
 <img width="948" height="607" alt="image" src="https://github.com/user-attachments/assets/c8341297-bb0b-4211-877c-304bdc4a795a" />
+
+Identify Data Problems from the Table(At least 3 problems)
+
+## Problem 1: Data Rudundancy
+
