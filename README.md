@@ -79,8 +79,10 @@ INSERT INTO DATA (StudentID, StudentName, Email, ClubName, ClubRoom, ClubMentor,
 (7, 'Aman', 'aman@email.com', 'Coding Club', 'Lab1', 'Mr. Anil', '2024-01-30');
 ```
 
+### Step 2: Apply normalizatiom
+(See `NeoAash_database.sql` for complete normalization step)
 
-
+##Inseting a new student on the table (Student)
 
 
 
