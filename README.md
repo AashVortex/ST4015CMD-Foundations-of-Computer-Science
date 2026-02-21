@@ -33,6 +33,9 @@ Identify Data Problems from the Table(At least 3 problems)
 -Dependence are not clear
 -Cause anomalies like ( insert, update, delete).
 
+** quick start 
+```
+git clone 
 
 Unnormalized Form (Initial)
 
