@@ -35,7 +35,9 @@ Identify Data Problems from the Table(At least 3 problems)
 
 ** quick start 
 ```
-git clone 
+git clone https://github.com/AashVortex/ST4015CMD-Foundations-of-Computer-Science
+cd ST4015CMD-Foundations-of-Computer-Science
+```
 
 Unnormalized Form (Initial)
 
