@@ -14,4 +14,10 @@ Identify Data Problems from the Table(At least 3 problems)
 ## Problem 1: Data Rudundancy
 
 --Student data (name,email) is repeated multiple times.
+-club data (room,Mentor) is also repeated.
+
+## problem 2: update Anomaly
+
+- If Music Club room chnages, we must update it in many rows.
+- Missing even one row causes Wrong data.
 
