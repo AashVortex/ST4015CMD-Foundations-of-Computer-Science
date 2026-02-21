@@ -6,8 +6,9 @@ The process is done by dividing a large table into smaller related tables.
 
 Database Schema and Table of  College Club Membership Management
 
+<img width="968" height="406" alt="image" src="https://github.com/user-attachments/assets/1a538586-8750-4c75-b04f-888f6410de13" />
 
-<img width="948" height="607" alt="image" src="https://github.com/user-attachments/assets/c8341297-bb0b-4211-877c-304bdc4a795a" />
+
 
 Identify Data Problems from the Table(At least 3 problems)
 
