@@ -84,13 +84,25 @@ INSERT INTO DATA (StudentID, StudentName, Email, ClubName, ClubRoom, ClubMentor,
 
 ##Inseting a new student on the table (Student)
 
+```bash
+INSERT INTO Student VALUES
+     (8,'Aashish','aashish@email.com');
+```
 
+-- Inserting a new Club into the Club table
 
+```bash
+INSERT INTO Club VALUES
+     (5,'hacking club','R699','ms.piya');
+```
 
-
-
-
-
+## Verification & Testing
+**Test case:1**
+```sql
+SELECT * FROM  Student;
+```
+**Expected Output:**
+```
 
 
 
