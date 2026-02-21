@@ -103,10 +103,82 @@ SELECT * FROM  Student;
 ```
 **Expected Output:**
 ```
++-----------+-------------+-------------------+
+| StudentID | Studentname | Email             |
++-----------+-------------+-------------------+
+|         1 | Asha        | asha@email,com    |
+|         2 | Bikash      | bikash@email.com  |
+|         3 | Nisha       | nisha@email.com   |
+|         4 | Rohan       | rohan@email.com   |
+|         5 | Suman       | suman@email.com   |
+|         6 | Pooja       | pooja@email.com   |
+|         7 | Aman        | aman@email.com    |
+|         8 | Aashish     | aashish@email.com |
++-----------+-------------+-------------------+
+```
 
+## Test case:2 
+```Sql
+SELECT * FROM Club;
+```
+**Expected Output:**
+```
++--------+--------------+----------+------------+
+| ClubID | Clubname     | ClubRoom | ClubMentor |
++--------+--------------+----------+------------+
+|      1 | music club   | R101     | mr.Raman   |
+|      2 | sports club  | R202     | ms. sita   |
+|      3 | drama club   | R303     | mr. kiran  |
+|      4 | coding club  | lab1     | mr. anil   |
+|      5 | hacking club | R699     | ms.piya    |
++--------+--------------+----------+------------+
+```
+## Test case:3 
+```sql
+SELECT * FROM Memberships;
+```
+**Expected Output:**
+```
++-----------+--------+------------+
+| StudentID | ClubID | JoinDate   |
++-----------+--------+------------+
+|         1 |      1 | 2024-01-10 |
+|         1 |      2 | 2024-01-15 |
+|         2 |      2 | 2024-01-12 |
+|         2 |      3 | 2024-01-25 |
+|         3 |      1 | 2024-01-20 |
+|         3 |      4 | 2024-01-28 |
+|         4 |      3 | 2024-01-18 |
+|         5 |      1 | 2024-01-22 |
+|         6 |      2 | 2024-01-27 |
+|         7 |      4 | 2024-01-30 |
++-----------+--------+------------+
+```
+## Test case 4: Join operation between (Student Table , Club table , Membership table) displaying the Student Name , Club name , join date
 
-
-
+```sql
+SELECT s.StudentName, c.ClubName, m.JoinDate
+FROM Membership m
+JOIN Student s ON m.StudentID = s.StudentID
+JOIN Club c ON m.ClubID = c.ClubID;
+```
+**Expected Output:**
+```
++-------------+-------------+------------+
+| StudentName | ClubName    | JoinDate   |
++-------------+-------------+------------+
+| Asha        | music club  | 2024-01-10 |
+| Nisha       | music club  | 2024-01-20 |
+| Suman       | music club  | 2024-01-22 |
+| Bikash      | sports club | 2024-01-12 |
+| Asha        | sports club | 2024-01-15 |
+| Pooja       | sports club | 2024-01-27 |
+| Rohan       | drama club  | 2024-01-18 |
+| Bikash      | drama club  | 2024-01-25 |
+| Nisha       | coding club | 2024-01-28 |
+| Aman        | coding club | 2024-01-30 |
++-------------+-------------+------------+
+```
 
 
 
