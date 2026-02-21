@@ -13,3 +13,5 @@ Identify Data Problems from the Table(At least 3 problems)
 
 ## Problem 1: Data Rudundancy
 
+--Student data (name,email) is repeated multiple times.
+
