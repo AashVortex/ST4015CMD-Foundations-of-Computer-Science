@@ -1,10 +1,10 @@
-#Foundation Assignment
+# Foundation Assignment
 
 ##Secure Data Exchange, Computational Complexity & Database Normalization
 
 A comprehensive laboratory project demonstrating secure data transmission, computational complexity (P vs NP), and database normalization (1NF, 2NF, 3NF) using Python, Docker, MySQL, and SQL scripts.
 
-#This repository simulates real-world scenarios including:
+# This repository simulates real-world scenarios including:
 
 *Secure email and file transmission over modern protocols
 
@@ -12,7 +12,7 @@ A comprehensive laboratory project demonstrating secure data transmission, compu
 
 *A college club membership system transformed into a fully normalized relational database
 
-#Project Overview
+# Project Overview
 
 This project is divided into three major taks:
 
@@ -23,7 +23,7 @@ Task 2 – Computational Complexity (P vs NP Problem)
 Task 3 – Database Normalization & SQL Operations
 
 
-#Task 1 – Secure Data Exchange & Encoding Formats
+# Task 1 – Secure Data Exchange & Encoding Formats
 
 #Objective
 
@@ -47,9 +47,9 @@ encoding techniques integrate with real-world protocols such as:
 3.REST APIs
 4.OAuth
 
-#Task 2 – Computational Complexity (P vs NP
+# Task 2 – Computational Complexity (P vs NP
 
-##Problem Statement
+## Problem Statement
 
 --A teacher must arrange students so that:
 
@@ -57,7 +57,7 @@ encoding techniques integrate with real-world protocols such as:
 
 --Students from the same city do not sit next to each other
 
-##Topics Covered
+## Topics Covered
 
 1️. Why This is a P vs NP Type Problem
 
@@ -65,7 +65,7 @@ encoding techniques integrate with real-world protocols such as:
 
 3. Heuristic Approach
 
-#Task 3 – ClubBase Database Normalization & SQL
+# Task 3 – ClubBase Database Normalization & SQL
 
 College club membership management database normalized through 1NF, 2NF, 3NF. Includes ER diagram, SQL scripts, JOIN queries, and set operations.
 
