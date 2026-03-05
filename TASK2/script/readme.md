@@ -16,7 +16,9 @@ The runtime grows at a manageable rate (e.g., O(n), O(n²), O(n³)).
 #Why Checking is Easy (P-like Behavior)
 
 -The teacher scans adjacent students
+
 -Only n−1 pairs need to be checked
+
 -Time complexity: O(n)
 
 #Performance Comparison
