@@ -71,7 +71,7 @@ College club membership management database normalized through 1NF, 2NF, 3NF. In
 
 ## Project Structure
 
-.
+```
 ├── TASK2
 │   └── script
 │       ├── Heuristic (SMART) approach.py
@@ -104,5 +104,5 @@ College club membership management database normalized through 1NF, 2NF, 3NF. In
 └── task2images
     ├── Er- Diagram.png
     └── README.md
-
+```
 
