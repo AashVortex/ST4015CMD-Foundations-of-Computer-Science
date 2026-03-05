@@ -6,21 +6,21 @@ A comprehensive laboratory project demonstrating secure data transmission, compu
 
 #This repository simulates real-world scenarios including:
 
--Secure email and file transmission over modern protocols
+*Secure email and file transmission over modern protocols
 
--A classroom seating arrangement constraint problem (P vs NP exploration)
+*A classroom seating arrangement constraint problem (P vs NP exploration)
 
--A college club membership system transformed into a fully normalized relational database
+*A college club membership system transformed into a fully normalized relational database
 
 #Project Overview
 
 This project is divided into three major taks:
 
--Task 1 – Secure Data Exchange & Encoding Integration
+Task 1 – Secure Data Exchange & Encoding Integration
 
--Task 2 – Computational Complexity (P vs NP Problem)
+Task 2 – Computational Complexity (P vs NP Problem)
 
--Task 3 – Database Normalization & SQL Operations
+Task 3 – Database Normalization & SQL Operations
 
 
 #Task 1 – Secure Data Exchange & Encoding Formats
@@ -42,13 +42,10 @@ This task investigates the relationship between encoding formats such as:
 encoding techniques integrate with real-world protocols such as:
 --HTTPS
 
---TLS
-
---SMTP
-
---REST APIs
-
---OAuth
+1.TLS
+2.SMTP
+3.REST APIs
+4.OAuth
 
 #Task 2 – Computational Complexity (P vs NP
 
