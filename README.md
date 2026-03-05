@@ -69,5 +69,40 @@ encoding techniques integrate with real-world protocols such as:
 
 College club membership management database normalized through 1NF, 2NF, 3NF. Includes ER diagram, SQL scripts, JOIN queries, and set operations.
 
+## Project Structure
+
+.
+├── TASK2
+│   └── script
+│       ├── Heuristic (SMART) approach.py
+│       ├── brute force approach.py
+│       └── readme.md
+│
+├── mysql queries
+│   ├── NeoAash_database.sql
+│   └── readme.md
+│
+├── output
+│   ├── collage club Membership_output.txt
+│   ├── join operation.txt
+│   ├── output_Club.txt
+│   ├── output_Membership.txt
+│   └── output_Student.txt
+│
+├── task 1
+│   └── scripts
+│
+├── task1images
+│   ├── ASCII encoding.png
+│   ├── URL encode.png
+│   ├── base 64.png
+│   ├── docker client.png
+│   ├── docker server.png
+│   ├── email base 64.png
+│   └── http header request.png
+│
+└── task2images
+    ├── Er- Diagram.png
+    └── README.md
 
 
