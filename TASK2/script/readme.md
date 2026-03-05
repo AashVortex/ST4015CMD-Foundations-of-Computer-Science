@@ -9,6 +9,7 @@ This project explores a classroom seating arrangement problem where students mus
 2.Students from the same city cannot sit next to each other.
 
 #What is a P Problem?
+
 A P (Polynomial-time) problem is one that can be solved efficiently.
 The runtime grows at a manageable rate (e.g., O(n), O(n²), O(n³)).
 
