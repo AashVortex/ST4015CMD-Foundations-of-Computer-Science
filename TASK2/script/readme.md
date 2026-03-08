@@ -51,7 +51,7 @@ python Brute-force.py
 ##output
 
 ###
-Brute Force (for 4 students)
+Brute Force (for 3 students)
 <img width="917" height="301" alt="h approach" src="https://github.com/user-attachments/assets/3a1951d6-1633-4c04-959f-9806b018d25c" />
 
 
